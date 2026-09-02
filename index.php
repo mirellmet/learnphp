@@ -1,16 +1,17 @@
 <?php
-echo "Hello, World!";
-?>
-// hello
-// world
+$test = 10;
+$test = 3.1;
+$test = "Hello World";
+$test = "õpilane";
+$test = true;
+$test = false;
+$test = null;
+$test = new stdClass();
+$test->name = "Mirell";
+var_dump($test);
+$num1 = "10";
+$num2 = "100";
+var_dump($num === $num2);
 
-/**
-*
-*long comment
-**/
-
-$name = "John Doe"; // Variable to store the nameˇ
-$age = 30; // Variable to store the age
-echo $age;
-$age = $age * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10; // Multiply age by 2, 3, 4, 5, 6, 7, 8, 9, and 10 
-echo $age // output the updated age
+$test = [1,2, "three", true];
+var_dump($test);
