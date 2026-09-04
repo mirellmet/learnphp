@@ -12,6 +12,8 @@ var_dump($test);
 $num1 = "10";
 $num2 = "100";
 var_dump($num === $num2);
+$test sqrt(16);
+var_dump($test)
 
 $test = [1,2, "three", true];
 var_dump($test);
