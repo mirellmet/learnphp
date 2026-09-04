@@ -1,19 +1,8 @@
 <?php
-$test = 10;
-$test = 3.1;
-$test = "Hello World";
-$test = "õpilane";
-$test = true;
-$test = false;
-$test = null;
-$test = new stdClass();
-$test->name = "Mirell";
-var_dump($test);
-$num1 = "10";
-$num2 = "100";
-var_dump($num === $num2);
-$test sqrt(16);
-var_dump($test)
-
-$test = [1,2, "three", true];
+$test = 'hello';
+$test = 'hello' . 'world';
+$test = '!';
+$name = 'mirell';
+$age = 19;
+$test = $name . ' is ' . $age . ' years old.';
 var_dump($test);
