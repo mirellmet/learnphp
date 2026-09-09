@@ -1,30 +1,17 @@
-class Box {
-    public $width;
-    public $height;
-    public $lenght;
-    public $isOpen = false;
-    public $hasBeenOpend = false;
-   
-    public function open () {
-        $this->isOpen = true;
-        $this->hasBeenOpend =true;
-    }
- 
-     public function close () {
-        $this->isOpen = true;
-        }
- 
-public function volume() {
-    return $this->height * $this->length * $this->width;
-}
- 
-}
- 
-$box1 = new Box();
-$box1->width = 10;
-$box1->lenght = 10;
-$box1->height = 30;
-$box1->open();
-var_dump($box1);
-var_dump($box1->volume());
- 
+<?php
+$test = 10;
+$test = 3.1;
+$test = "Hello World";
+$test = "õpilane";
+$test = true;
+$test = false;
+$test = null;
+$test = new stdClass();
+$test->name = "Mirell";
+var_dump($test);
+$num1 = "10";
+$num2 = "100";
+var_dump($num === $num2);
+
+$test = [1,2, "three", true];
+var_dump($test);
