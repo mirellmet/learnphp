@@ -5,25 +5,25 @@ $posts = [
   ['title' => 'Some tech title 1',
   'content' => 'Some tech content 1',
   'date' => 'September 17, 2006',
-  'author' => 'Riksuu',
+  'author' => 'Mirell',
   ],
 
     ['title' => 'Some tech title 2',
   'content' => 'Some tech content 2',
   'date' => 'April 1, 2001',
-  'author' => 'Aniga',
+  'author' => 'Jass',
   ],
 
     ['title' => 'Some tech title 3',
   'content' => 'Some tech content 3',
   'date' => 'January 3, 2009',
-  'author' => 'Kassu',
+  'author' => 'Kaur',
   ],
 
     ['title' => 'Some tech title 4',
   'content' => 'Some tech content 4',
   'date' => 'August 29, 2017',
-  'author' => 'Anksu',
+  'author' => 'Biku',
   ],
 ]
 

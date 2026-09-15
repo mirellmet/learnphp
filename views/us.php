@@ -5,8 +5,8 @@ $posts = [
   [
     'title' => 'Some U.S title 1',
     'content' => 'Some U.S content 1',
-    'date' => 'June 26, 2008',
-    'author' => 'Biku'
+    'date' => 'May 31, 2007',
+    'author' => 'Mirell'
   ],
   [
     'title' => 'Some U.S title 2',
